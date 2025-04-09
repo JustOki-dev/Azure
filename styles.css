@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: 'MedievalSharp', cursive; /* Fonte medieval */
+    background: linear-gradient(180deg, #000000, #1a1a1a);
+    color: #ffffff;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+h1 {
+    font-size: 3em;
+    text-shadow: 0 0 10px #00bfff, 0 0 20px #00bfff;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 20px 0;
+    text-shadow: 0 0 5px #00bfff;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin: 20px 0;
+    text-shadow: 0 0 5px #ffffff;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.5em;
+    color: #ffffff;
+    background: linear-gradient(90deg, #00bfff, #1a1a1a);
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+    box-shadow: 0 0 10px #00bfff;
+}
+
+.button:hover {
+    background: linear-gradient(90deg, #1a1a1a, #00bfff);
+    box-shadow: 0 0 20px #00bfff;
+}
